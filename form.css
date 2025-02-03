@@ -1,0 +1,44 @@
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input, select{
+  padding: 10px
+}
+
+a{
+    font-weight: bold;
+    color:royalblue;
+    text-decoration: none;
+}
+
+submit{
+    display: block;
+    color: white;
+    background-color: royalblue;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-left: 20px;
+    
+}
+
+header{
+    float: right;
+}
+
+footer, h1{
+    text-align: center;
+}
+
