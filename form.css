@@ -3,12 +3,14 @@
 body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    padding: 50px;
     column-gap: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 input, select{
-  padding: 10px
+  padding: 10px;
+  border: 1px solid gray;
 }
 
 
@@ -43,3 +45,32 @@ footer, h1{
     text-align: center;
 }
 
+@media screen and (max-width:700px) {
+    div1{
+        display: none;
+    }
+
+    body{
+        display: grid none;
+    }
+
+    div2{
+        padding: 50px;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width:480px) {
+    div1{
+        display: none;
+    }
+
+    body{
+        display: grid none;
+    }
+
+    div2{
+        padding: 50px;
+        font-size: xx-large;
+    }
+}

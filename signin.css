@@ -3,13 +3,14 @@ body{
     grid-template-columns: repeat(2,1fr);
     column-gap: 70px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-right: 50px;
+    padding: 50px;
 }
 
 input{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 400px;
+    border: 1px solid gray;
 }
 
 a{
@@ -41,5 +42,35 @@ header{
 
 footer, h1{
     text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    div1{
+        display: none;
+    }
+
+    body{
+        display: grid none;
+    }
+
+    div2{
+        padding: 50px;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width:480px) {
+    div1{
+        display: none;
+    }
+
+    body{
+        display: grid none;
+    }
+
+    div2{
+        padding: 50px;
+        font-size: xx-large;
+    }
 }
 
