@@ -52,11 +52,15 @@ footer, h1{
 
     body{
         display: grid none;
+        padding: 0;
+        margin: 0;
     }
 
     div2{
         padding: 50px;
         font-size: x-large;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -67,10 +71,14 @@ footer, h1{
 
     body{
         display: grid none;
+        padding: 0;
+        margin: 0;
     }
 
     div2{
         padding: 50px;
         font-size: xx-large;
+        width: 100%;
+        margin: 0 auto;
     }
 }
