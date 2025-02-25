@@ -1,47 +1,28 @@
-body{
+body {
     text-align: center;
-    justify-content: center;
-    align-content: center;
-    margin: 0;
-    font-family:'Times New Roman', Times, serif;
-    font-size:larger;
-}
-
-.image{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    margin: 0 auto;
+    background-image: url(./Ass1_Asset/Images/—Pngtree—website\ technology\ line\ dark\ background_2443641.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 
 .details {
-    position: absolute;
-    top: 10%;
-    width: 100%;
+    padding: 50px;
     color: white;
-    z-index: 1;
     text-wrap: wrap;
+
 }
 
 a {
+    display: grid;
+    margin: 0 auto;
+    color: white;
+    width: 30%;
+    padding: 10px;
     text-decoration: none;
-    background-color:black;
+    background-color: black;
     border: 2px solid rgb(255, 12, 12);
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    color: white;
-}
-
-@media screen and (max-width: 500px) {
-    a {
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-    }
 }
