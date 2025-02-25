@@ -1,7 +1,7 @@
 body{
     background-color: black;
+    outline: 10px solid rgb(183, 195, 20);
     color: white;
-    border: 10px solid yellow;
     margin: 0;
     padding: 20px;
 }
