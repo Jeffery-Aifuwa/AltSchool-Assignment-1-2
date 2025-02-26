@@ -8,9 +8,23 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-input, select{
-  padding: 10px;
-  border: 1px solid gray;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px; 
+    font-size: 15px;
+    color: #ccc;
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #ccc;
 }
 
 
@@ -45,7 +59,7 @@ footer, h1{
     text-align: center;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:767px) {
     div1{
         display: none;
     }
@@ -62,6 +76,11 @@ footer, h1{
         width: 100%;
         margin: 0 auto;
     }
+
+    td{
+        display: block;
+    }
+
 }
 
 @media screen and (max-width:480px) {
@@ -81,4 +100,9 @@ footer, h1{
         width: 100%;
         margin: 0 auto;
     }
+
+    td{
+        display: block;
+    }
+
 }

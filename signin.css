@@ -7,9 +7,8 @@ body{
 }
 
 input{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 400px;
+    padding: 10px;
+    width: 100%;
     border: 1px solid gray;
 }
 
@@ -20,6 +19,7 @@ a{
 }
 
 submit{
+    width: 100%;
     display: block;
     color: white;
     background-color: royalblue;
@@ -76,7 +76,7 @@ footer, h1{
 
     div2{
         padding: 50px;
-        font-size: xx-large;
+        font-size: x-large;
         width: 100%;
         margin: 0 auto;
     }
